@@ -1,0 +1,84 @@
+
+--Fetch all record from the product table.
+ select * from Production.Product
+
+ --Fetch all only 5 colunmns from the product table.
+select ProductID,Name,ProductNumber,MakeFlag,Color from Production.Product
+
+--Fetch all records from product table where Product name is starting from A.
+select * from Production.Product
+where Name LIKE 'A%'
+
+--Fetch all records from the product table where Product name is ending with A.
+select * from Production.Product
+where Name LIKE '%a'
+
+--fetch all the records from the product table where Product id between 4 and 320.
+select * from Production.Product
+where ProductID>=4 and ProductID<=320
+
+
+--Create a table of any name and it should satisfy all the constraint concepts(except foreign key). notnull unique identity primarykey check default
+create table Student101(StudentID int primary key identity(1,1),Student_name varchar(30) not null,Student_age int check(Student_age>=18),Student_subject varchar(30) default 'Science',Student_mobno varchar(10) unique)
+select * from Student101
+
+
+--Fetch all the records from the catagory table
+select * from Production.ProductCategory
+
+How to stabalize sql connection
+sqlconnetion.start
+
+
+<----------How to create a procedure-------------------->
+
+Use [database Name]
+Go
+
+Create Procedure Name
+@Id INT
+
+As
+Begin
+Select * from tablename
+where id=@Id
+
+end
+go
+
+
+<----------------------------------------------------------->
+ENTITY
+Scaffolding
+->Data First Approach
+
+Manually
+->Data Back Approach
+
+<----------------------------------------------------------->
+
+API Response codes
+
+Scaffold-DbContext "Server=.\SQLEXPRESS;Database=spartan;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+
+
+
+Post method
+
+1)request
+2)convert to database object
+3)Add
+4)save changes
+5)return or void
+
+
+
+Trello
+
+
+
+
+
+

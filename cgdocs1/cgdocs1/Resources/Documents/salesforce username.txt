@@ -1,0 +1,23 @@
+arshbandlish@curious-fox-ehgsya.com
+
+status code
+serialize and desearlize 
+typed and untyped
+Remote side setting
+connected app
+static response
+set, list and map difference
+
+
+
+
+
+
+
+
+
+create a table which contains student information or employee information where you will take employee info first name,middle name, last name ,dob,  mob no., age , martial status, email id.
+create a stored procedure which will insert a record into this table.
+create a stored procedure which will only fetch a record from this table.
+create a stored procedure which will only updtae a record into this table.
+create a stored procedure which will delete a record from the table.

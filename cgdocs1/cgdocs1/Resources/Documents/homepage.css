@@ -1,0 +1,46 @@
+.sidebar{
+    width: 5%;
+    min-width: 55px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: red;
+
+}
+.sidebar:hover{
+    width: 10%;
+}
+
+.sidebar:hover  .hide{
+    display: block;
+}
+svg:hover::after{
+    content: 'profile';
+}
+body{
+    height: 100vh;
+    overflow: scroll;
+}
+.main-div{
+    display: flex;
+    background-color: aqua;
+    height: 100%;
+}
+.hide{
+    display: none;
+    
+}
+p.hide{
+    font-size: 1.5rem;
+}
+
+.table-container{
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}

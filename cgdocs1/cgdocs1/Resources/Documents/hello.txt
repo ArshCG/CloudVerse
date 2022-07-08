@@ -1,0 +1,39 @@
+HI I am am Arsh Bandlish and I am Ritvik Sharma and we are TEAM CODE200. We are here to present you the project we have made during our Bootcamp named Cloud Verse.
+
+CloudVerse is a  file management website that enables users to store and and access files online.
+
+In this project we have worked with various technologies such as HTML CSS Javascript ASP.net core and SQl Database. So Now we are going to present our website.
+
+
+Signup 
+
+Signup database entry
+
+login and  login responsive
+
+token generation in session storage 
+
+add folder 
+
+
+search folder
+view Details
+
+delete folder
+
+Responsive folder Page
+
+Add file to a folder
+
+download file
+
+and search file
+view details
+
+delete file
+
+logout
+
+
+
+
